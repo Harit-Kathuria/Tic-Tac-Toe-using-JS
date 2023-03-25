@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="ttt.css">
+</head>
+<body>
+	<h1>TIC TAC TOE</h1>
+	<p> Game starts by just tap on box<br>
+		First Player starts as <b>Player X</b><br>
+		Second Player starts as <b>Player O</b>
+	</p>
+	
+	<br><br>
+	<input type="text" id="b1" onclick="r1c1()" readonly>
+	<input type="text" id="b2" onclick="r1c2()" readonly>
+	<input type="text" id="b3" onclick="r1c3()" readonly>
+	<br><br>
+	<input type="text" id="b4" onclick="r2c1()" readonly>
+	<input type="text" id="b5" onclick="r2c2()" readonly>
+	<input type="text" id="b6" onclick="r2c3()" readonly>
+	<br><br>
+	<input type="text" id="b7" onclick="r3c1()" readonly>
+	<input type="text" id="b8" onclick="r3c2()" readonly>
+	<input type="text" id="b9" onclick="r3c3()" readonly>
+	<br><br><br>
+	
+	<button class="bn" id="btn" onclick="reset()">RESET</button>
+	<br><br>
+	
+	<p id="winner"></p>
+	
+	<script src="ttt.js"></script>
+</body>
+</html>

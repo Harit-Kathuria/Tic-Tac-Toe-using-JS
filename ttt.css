@@ -1,0 +1,41 @@
+body{
+	text-align: center;
+	font-family: 'Calibri';
+	font-size: 25px;
+	background-image: url("file:///D:/project/tic%20tac%20toe/bg.jpg");
+}
+
+h1{
+	color: #0000ff;
+}
+
+input{
+	background-color: #959595;
+	font-size: 55px;
+	text-align: center;
+	font-weight: bold;
+	width: 90px;
+	height: 65px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	border: 1px solid #808080;
+	padding: 5px;
+	cursor: pointer;
+}
+
+button{
+	border: 2px solid black;
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	background-color: #ffff00;
+	font-size: 16px;
+	cursor: pointer;
+	font-weight: bold;
+	border-color: #ffff00;
+}
+
+.bn:hover{
+	background-color: #00ffff;
+	border-color: #00ffff;
+}
